@@ -72,7 +72,7 @@ public class LocationComponentActivity extends AppCompatActivity implements OnMa
             //Set render mode
             component.setRenderMode(RenderMode.COMPASS);
 
-            component.getLastKnownLocation();
+            //component.getLastKnownLocation();
 
         } else {
             permissionsManager = new PermissionsManager(this);
